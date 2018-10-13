@@ -36,8 +36,8 @@
                         echo"<td>".$ligne['nbPieces']."</td>";  
                         echo"<td>".$ligne['EspaceCommun']."</td>"; 
                         
-                        echo"<td><a href=../View/modifier.php?id=$ligne[reference]>  UPDATE</a></td>";
-                        echo"<td><a href=../controller/supprimer.php?id=$ligne[0]> DELETE </a></td>";
+                        echo"<td><a href=../../View/modifier.php?id=$ligne[reference]>  UPDATE</a></td>";
+                        echo"<td><a href=../../Controller/Appartement/delete.php?id=$ligne[0]> DELETE </a></td>";
                        
                 echo"</tr>";
                 

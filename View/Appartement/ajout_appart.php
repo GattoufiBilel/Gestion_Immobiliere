@@ -22,12 +22,12 @@
                        <tr><td><label>Surface : </label></td>
                            <td><input type="text" name="surf" ></td>
                        <tr><td><label>Domaine Usage : </label></td>
-                <tr><td><select name="Du"> 
-                    <option value="Bureau">Bureau</option>
-                    <option value="Domicile">Domicile</option>
-                    <option value="commerciale">Commerciale</option>
-                </select> </td>
-                </tr>
+                           <td><select name="Du">    
+                                <option value="Bureau">Bureau</option>
+                                <option value="Domicile">Domicile</option>
+                                <option value="commerciale">Commerciale</option>
+                              </select> </td>
+                      
                    
                      <tr><td><label>Nombre Pieces : </label></td>
                     <td><input type="text" name="nbpiece"></td>

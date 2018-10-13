@@ -33,6 +33,16 @@ require_once 'appartement.php';
           return $resultat ;
           
       }
+      
+      
+      public function delete_appart($ref) 
+      {
+          $sql = " delete from appartement where reference =".$ref ; 
+          $resultat = $this->connect->exec($sql) ;
+          
+          return $resultat ; 
+      }
+              
      
       
       

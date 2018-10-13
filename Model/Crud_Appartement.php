@@ -28,7 +28,7 @@ require_once 'appartement.php';
           $SurfaceEspacecommun = $appart->getSurfaceespacecommun(); 
           
           
-          $sql = " insert into appartement values ($ref,'$prop','$localite',$surface,$Dusage,$nbp,$SurfaceEspacecommun)" ; 
+          $sql = " insert into appartement values ($ref,'$prop','$localite',$surface,'$Dusage',$nbp,$SurfaceEspacecommun)" ; 
           $resultat = $this->connect->exec($sql);
           return $resultat ;
           

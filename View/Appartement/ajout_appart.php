@@ -11,31 +11,32 @@
         <div  id="app1">
           <fieldset> 
               <legend> Ajout Appartement </legend>
-               <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post"> 
+                <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post"> 
                    <table>               
-                       <tr><td> <label for="ref">Reference</label></td>
-                           <td><input type="text" name="ref" > </td>
-                       <tr><td><label for="prop">proprietaire :</label></td>
+                       <tr><td> <label>Reference</label></td>
+                           <td><input type="text" name="ref"  > </td>
+                       <tr><td><label>proprietaire :</label></td>
                            <td><input type="text" name="prop" > </td>
-                       <tr><td><label for="local">localite : </label></td>
+                       <tr><td><label>localite : </label></td>
                            <td><input type="text" name="local" ></td> 
-                       <tr><td><label for="surf">Surface : </label></td>
+                       <tr><td><label>Surface : </label></td>
                            <td><input type="text" name="surf" ></td>
-                       <tr><td><label for="local">Domaine Usage : </label></td>
-                <tr><td><select name="Du"form="domaine_usage"> 
+                       <tr><td><label>Domaine Usage : </label></td>
+                <tr><td><select name="Du"> 
                     <option value="Bureau">Bureau</option>
                     <option value="Domicile">Domicile</option>
                     <option value="commerciale">Commerciale</option>
-                </select>
-                    </td>
-                     <tr><td><label for="nombrep">Nombre Pieces : </label></td>
+                </select> </td>
+                </tr>
+                   
+                     <tr><td><label>Nombre Pieces : </label></td>
                     <td><input type="text" name="nbpiece"></td>
                     </tr>
-                <tr><td><label for="Espace_Commun">Espace Commun : </label></td>
+                <tr><td><label>Espace Commun : </label></td>
                     <td><input type="text" name="EspaceCommaun"></td>
                 </tr>
                 <tr>
-                    <td><input type="submit" value="ajouter" name="ajout"> </td>
+                    <td><input type="submit" name="ajout" value="ajouter"> </td>
                     <td><input type="reset" value="Efacer" name="rst"> </td>
                 </tr>
                    </table>

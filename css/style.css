@@ -1,0 +1,98 @@
+/*font*/
+body {
+    background:url(https://preview.ibb.co/g6MVS9/gg.png);
+    font-family:'PT Sans',Helvetica, Arial, sans-serif;
+    color:#fff;
+       background-repeat: no-repeat;
+       background-size:cover;
+    }
+
+
+
+
+/*connexion inscription */ 
+/*table ,th*/
+
+#table1_connet
+{
+    border: 1px white double  ;
+    height: 50%;
+    padding: 15px;
+    margin:   0 auto ;
+    margin-top: 80px ;
+}
+
+
+#table1_inscrit
+{
+    border: 1px white double  ;
+    height: 50%;
+    padding: 15px;
+    margin:   0 auto ;
+    margin-top: 80px ;
+}
+
+.td_table1
+{
+    width: 50%;
+    padding: 15px;
+    text-align: center;
+    font-style: italic  ;
+    font-weight: bold ;
+
+}
+
+.th_table1:hover
+{
+    background-color: buttonface ;
+}
+
+/*footer */
+
+html, body {
+	height: 90%;
+	margin: 0; padding: 0;
+}
+
+
+#pied_page_footer
+{
+    position: absolute; bottom: 0; left: 0; right: 0 ; 
+    padding-left: 1% ;
+    padding-right:  1% ;
+    margin-right: 2%; 
+    margin-left: 2%;
+}
+
+
+
+#adr  { text-align: left; }
+#acc  { text-align: center; }
+#dec  { text-align: left ; }
+
+
+/*header */
+
+#barre_navgiation_header
+{
+    font-family: sans-serif ;
+    font-style: italic ; 
+    font-size: medium ;
+    color: royalblue ; }
+
+
+.barre_navgiation_header
+{
+    margin-left: 1%;
+}
+
+/*index*/
+
+#menu_nav
+{
+    margin-left: 3%;
+    font-size: medium;
+    color: #20B2AA ; 
+    font-family: monospace; 
+    font-style: oblique; 
+}
